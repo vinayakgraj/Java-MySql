@@ -17,19 +17,19 @@ public class TopClass {
 		System.out.println("Select option");
 		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 		int opt = Integer.parseInt(input.readLine());
-		System.out.println(opt);
+	
 		try {
 		switch(opt) {
 		
 		case 1 : 
-			System.out.println("inside case 1");
+			
 			PopTable p = new PopTable();
 					break;
 		
 		case 2 :String sCurrentLine;
 		 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		 		//while ((
-		 						sCurrentLine = br.readLine();//) != null)
+		 		
+		 						sCurrentLine = br.readLine();
 		 			{
 				String[] parts = sCurrentLine.split(" ", 10); 
 				InsertRow r = new InsertRow(parts[0],parts[1],parts[2],parts[3],parts[4],parts[5],parts[6],parts[7],parts[8],parts[9]) ;

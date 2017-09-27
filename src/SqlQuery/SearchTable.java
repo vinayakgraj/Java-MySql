@@ -27,7 +27,7 @@ public class SearchTable {
 			    ResultSet rs =  Stmt.executeQuery(output);
 			     
 			    while(rs.next()) {
-			   /// int last = rs.getInt(sno);
+			   
 			    String first = rs.getString(lookup_string);
 		       
 			    
