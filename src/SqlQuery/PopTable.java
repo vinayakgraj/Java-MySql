@@ -16,10 +16,11 @@ public class PopTable {
 	
 	private static final String FILE_NAME = "/home/vin/Downloads/IoT.xlsx";
 
+	
+	
+	public  PopTable() {
 
-	public static void main(String[] args) {
-
-		{
+		{ 	System.out.println("hi");
 
 	    try
 	    {
@@ -82,12 +83,13 @@ public class PopTable {
 	            }
 	      // execute the preparedstatement
 	     
-	      
+	     
 	      //conn.close();
 	    }
 	   
-	    	 InsertRow r = new InsertRow("1","1","1","1","1","1","1","1","1","1") ;
+	    	// InsertRow r = new InsertRow("1","1","1","1","1","1","1","1","1","1") ;
 	    	// DeleteRow d = new DeleteRow(5);
+	    	// SearchTable s = new SearchTable(4,"Job_skills_gathered");
 	    }
 	 
 	    catch (Exception e)
